@@ -1,0 +1,10 @@
+{% extends 'layout.jinja2' %}
+
+{% block title %}Lorem ipsum{% endblock %}
+
+
+{% block content %}
+    {% for p in paragraphs %}
+      <p>{{ p }}</p>
+  {% endfor %}
+{% endblock %}
